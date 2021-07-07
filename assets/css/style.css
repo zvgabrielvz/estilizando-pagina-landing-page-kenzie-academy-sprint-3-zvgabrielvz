@@ -260,7 +260,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #d3d3d3;    
+    background-color: #e9e9e9;    
     
 }
 
@@ -363,9 +363,9 @@ form {
     border: 1px solid #818181;
     border-radius: 5px ;
     color: #303030;
-    width: 35px;
-    height: 25px;  
-    margin-left: 165px; 
+    width: 50px;
+    height: 35px;  
+    margin-left: 140px; 
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -413,10 +413,13 @@ footer a{
 
 /* MEDIA QUERIES */
     @media screen and (min-width: 768px) {
+        body{
+            margin-bottom: 90px;
+        }
         .cursos1 {
             width: 100%;
             display: flex;
-            justify-content: space-around;            
+            justify-content: space-evenly;            
         }
         
         .calendario {
@@ -431,12 +434,54 @@ footer a{
         }
 
         .flex-contat1 {
+            width: 100%;
             display: flex;
             flex-direction: row;
-            justify-content: center;
-            background-color: #d3d3d3;    
+            justify-content: space-evenly;
+            background-color: #e9e9e9;   
             
         }
+
+        .secaoContato-informacoes{
+            max-width: 350px;  
+            margin-left: px;
+            margin-right: 250px;
+
+                      
+        }
+        .secaoContato-informacoes p {
+            width: 100%;
+        }
+
+        .formu1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-left: -220px;
+            width: 410px;            
+        }
+
+        #nome {
+            width: 180px;           
+        }
+
+        #email {
+            width: 180px;
+        }
+
+        #mensagem {
+            width: 410px;
+        }
+
+        footer p{
+            display: block;
+            text-align: center;
+            margin-top: -20px;
+        }
+
+
+       
         
 
 
