@@ -620,6 +620,11 @@ form {
     background-color: #818181;
 }
 
+#subscribe:hover{
+    color: #007aff;
+    background-color: #ffff;
+}
+
 #upward {
     margin: 30px;
     width: 20px;
